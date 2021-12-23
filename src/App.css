@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f5f5;
+  /* color: #2b2b2b; */
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #2b2b2b;
+}
+
+.coin-search {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-text {
+  font-size: 35px;
+  width: 600px;
+}
+.coin-text span {
+  font-size: 20px;
+}
+
+.form-input-search {
+  display: flex;
+  width: 300px;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 100%;
+  height: 45px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #e6e5e5;
+  /* background-image: linear-gradient(
+    -225deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  ); */
+  background: #fff;
+  outline: none;
+  color: #2b2b2b;
+  font-size: 15px; 
+  border-right: none;
+}
+
+.coin-input::placeholder {
+  color: #474646;
+}
+
+.MuiSvgIcon-root {
+  text-align: center !important;
+  padding: 10px !important;
+  background: #fff !important;
+  font-size: 45px !important;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #b4b4b4 !important;
+  border: 1px solid #e6e5e5;
+  border-left: none;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.header-crypto {
+  width: 190px;
+}
+
+.header-symbol {
+  width: 170px;
+}
+
+.header-price {
+  width: 90px;
+}
+
+.header-volume {
+  width: 130px;
+}
+
+.header-priceChange {
+  width: 170px;
+}
