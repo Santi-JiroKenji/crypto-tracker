@@ -44,7 +44,7 @@ function App() {
       </div>
       <div className="header-container">
         <div className="header-row">
-          <h4 className="header-crypto">Crypto</h4>
+          <h4 className="header-crypto">Crypto Name</h4>
           <h4 className="header-symbol">Symbol</h4>
           <h4 className="header-price">Price</h4>
           <h4 className="header-volume">Volume</h4>
